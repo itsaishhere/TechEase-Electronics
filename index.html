@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TechEase Electronics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    :root {
+      --primary: #0f2027;
+      --secondary: #203a43;
+      --accent: #2c5364;
+      --highlight: #00c6ff;
+      --text-light: #ffffff;
+      --text-dark: #333333;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: var(--text-light);
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      background-color: rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      font-size: 1.1em;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--highlight);
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      color: var(--highlight);
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .feature-card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 20px;
+      width: 250px;
+      color: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    footer {
+      background-color: #000000aa;
+      padding: 30px;
+      text-align: center;
+      color: #cccccc;
+    }
+
+    .contact p {
+      margin: 8px 0;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TechEase Electronics</h1>
+    <p>Innovating Everyday Tech</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>TechEase Electronics provides smart, efficient, and modern electronics for both consumers and businesses. We specialize in embedded systems, IoT, and automation kits.</p>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>🔌 Smart Home Kits</h3>
+        <p>Automate lights, fans, and devices with voice or app control.</p>
+      </div>
+      <div class="feature-card">
+        <h3>📦 IoT Starter Packs</h3>
+        <p>All-in-one kits to kickstart your IoT development journey.</p>
+      </div>
+      <div class="feature-card">
+        <h3>💻 PCB & Circuit Design</h3>
+        <p>Custom PCB design for prototyping and production.</p>
+      </div>
+      <div class="feature-card">
+        <h3>⚙️ Embedded Solutions</h3>
+        <p>End-to-end embedded system design and integration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91-98765-43210</p>
+    <p>📧 support@techease.in</p>
+    <p>🌐 <a href="https://techease.in" style="color: #00c6ff;">techease.in</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 TechEase Electronics. All rights reserved.
+  </footer>
+
+ <script>
+	window.fwSettings={
+	'widget_id':1130000000099
+	};
+	!function(){if("function"!=typeof window.FreshworksWidget){var n=function(){n.q.push(arguments)};n.q=[],window.FreshworksWidget=n}}() 
+</script>
+<script type='text/javascript' src='https://ind-widget.freshworks.com/widgets/1130000000099.js' async defer></script>
+
+</body>
+</html>
